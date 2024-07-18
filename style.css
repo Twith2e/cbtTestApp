@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  height: 100vh;
+  width: 100%;
+}
+
+input {
+  border: none;
+}
+
+button {
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+}
+
+p {
+  background-color: white;
+  color: #000;
+  padding: 10px;
+  width: fit-content;
+}
+
+.body-wrapper {
+  background-color: #555;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 100%;
+  padding: 30px;
+}
+
+.submit-timer-wrapper {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+
+#timer {
+  padding: 5px 10px;
+}
+
+.CBT-Start,
+.quizEnd,
+.submitted {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.quizEnd {
+  color: red;
+  font-size: 40px;
+}
+
+.submitted {
+  color: black;
+}
+
+.CBT {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.buttons-wrapper {
+  display: flex;
+  gap: 50px;
+}
+
+.start-btn {
+  background-color: green;
+}
+
+.prev {
+  background-color: red;
+}
+
+.next {
+  background-color: green;
+}
+
+.submit-btn {
+  background-color: blue;
+}
